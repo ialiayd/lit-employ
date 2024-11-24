@@ -1,5 +1,6 @@
 :root {
-  --color-primary: #ff6200;
+  --color-primary-500: #ff6200;
+  --color-primary-400: #ff914d;
   --text-color: #000000;
   --color-white: #ffffff;
 
@@ -27,29 +28,4 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: var(--fw-md);
-  color: var(--color-primary);
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: var(--color-primary);
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: var(--text-color);
-    background-color: var(--color-white);
-  }
 }

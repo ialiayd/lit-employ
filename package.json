@@ -11,6 +11,7 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
+		"@vaadin/router": "^2.0.0",
 		"lit": "^3.2.1"
 	},
 	"devDependencies": {
