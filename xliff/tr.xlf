@@ -6,6 +6,9 @@
         <source>Employees</source>
         <target>Çalışanlar</target>
       </trans-unit>
+<trans-unit id="s32c9b3dd030fc24c">
+  <source>Add Employee</source>
+</trans-unit>
     </body>
   </file>
 </xliff>

@@ -1,4 +1,5 @@
 import { Route, Router } from '@vaadin/router';
+import './components/app';
 import { PATHS } from './constants/paths';
 import './pages/add-employee';
 import './pages/employees';
